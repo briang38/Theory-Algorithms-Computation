@@ -1,5 +1,9 @@
+//Week 1-2 
+//Brian Gutt
+
 public class time2 {
     public static void main(String[] args) {
+        //This starts the counter in ns
         long startTime = System.nanoTime(); // Start time
 
         int r = 2;
@@ -11,5 +15,7 @@ public class time2 {
 
         System.out.println("Sum (Formula): " + sum);
         System.out.println("Elapsed Time (Formula): " + elapsedTime + " ns");
+        
     }
 }
+
